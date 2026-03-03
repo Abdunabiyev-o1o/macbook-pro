@@ -1,0 +1,467 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.nav_content {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero_content h1 {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 74px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 175px;
+}
+.hero_content p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.hero_content input {
+  padding: 14px 30px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+.hero {
+  background: url(imgs/hero.png);
+  width: 100%;
+  height: 1030px;
+}
+.one_content {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.one_right h1 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 48px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 275px;
+}
+.one_content p {
+}
+.card1 {
+  margin-top: 60px;
+}
+.card1 p {
+  padding-bottom: 40px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: right;
+  margin-right: 220px;
+  margin-left: 77px;
+}
+.one_right {
+  background: #f1f1f1;
+}
+.title {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 48px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+  margin-bottom: 70px;
+}
+.two_content img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 227px;
+}
+.sec_three {
+  background: url(imgs/sec3.png);
+  height: 900px;
+}
+.card2 {
+  padding-top: 90px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card2 p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
+  padding-right: 70px;
+}
+.cars {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.three_content h1 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 48px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  padding-top: 336px;
+}
+.sec_four {
+  background: url(imgs/sec5.png);
+  height: 1000px;
+}
+.five_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 103px;
+}
+.card7 h1 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-bottom: 33px;
+  color: white;
+}
+.card7 p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-bottom: 20px;
+  color: white;
+}
+.card7 h2 {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-bottom: 20px;
+  color: white;
+}
+.card7 h3 {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-bottom: 45px;
+  color: white;
+}
+.sec_five {
+  background: #17181c;
+}
+.card0 {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 20px;
+}
+.left h1 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+  padding-left: 333px;
+  padding-bottom: 102px;
+}
+.footer_content {
+  display: flex;
+  gap: 885px;
+  padding-top: 46px;
+}
+.footer {
+  background: #17181c;
+}
+.hello img {
+  padding-right: 10px;
+}
+@media (max-width: 768px) {
+  .nav_content {
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 15px;
+  }
+  .hero_content h1 {
+    font-weight: 400;
+    font-size: 34px;
+
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 130px;
+  }
+  .hero_content p {
+    font-weight: 500;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .hero_content input {
+    padding: 14px 30px;
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+  }
+  .hero {
+    background: url(imgs/hero.png);
+    width: 100%;
+    height: 830px;
+  }
+  .one_content {
+    display: flex;
+    flex-direction: column;
+  }
+  .one_right h1 {
+    width: max-content;
+    font-weight: 500;
+    font-size: 40px;
+
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 80px;
+  }
+
+  .card1 {
+    margin-top: 60px;
+  }
+  .card1 p {
+    padding-bottom: 40px;
+
+    font-weight: 500;
+    font-size: 16px;
+
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 50px;
+  }
+  .one_right {
+    background: #f1f1f1;
+  }
+  .two_content img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 227px;
+  }
+  .sec_three {
+    background: url(imgs/sec3.png);
+    height: 900px;
+  }
+  .card2 {
+    padding-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card2 p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 150%;
+    letter-spacing: 0%;
+    padding-right: 70px;
+  }
+  .cars {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  .title {
+    font-weight: 500;
+    font-size: 30px;
+
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+  .two_content img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 77px;
+    width: 380px;
+    margin-left: 10px;
+  }
+  .sec_three {
+    background: url(imgs/sec3.png);
+    height: max-content;
+  }
+  .card2 {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-direction: column;
+    padding-left: 10px;
+  }
+  .card2 p {
+    font-weight: 500;
+    font-size: 12px;
+
+    line-height: 150%;
+    letter-spacing: 0%;
+    padding-right: 20px;
+  }
+  .cars {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  .three_content h1 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    padding-top: 270px;
+  }
+  .sec_four {
+    background: url(imgs/sec5.png);
+    height: 700px;
+  }
+  .five_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 103px;
+    padding-bottom: 40px;
+    padding-left: 17px;
+  }
+  .card7 h1 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-bottom: 33px;
+    color: red;
+  }
+  .card7 p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-bottom: 20px;
+    color: white;
+    padding-right: 15px;
+    padding-bottom: 0px;
+  }
+
+  .card7 h3 {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-bottom: 45px;
+    color: white;
+  }
+  .sec_five {
+    background: #17181c;
+  }
+  .card0 {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 20px;
+  }
+  .footer_content {
+    display: flex;
+    gap: 185px;
+    padding-top: 46px;
+  }
+
+  .footer {
+    background: #17181c;
+  }
+  .hello img {
+    padding-right: 10px;
+  }
+  .left h1 {
+    
+    font-weight: 600;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+    padding-left: 33px;
+    padding-bottom: 70px;
+  }
+  .right {
+    display: flex;
+  }
+}
