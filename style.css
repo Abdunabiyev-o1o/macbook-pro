@@ -270,7 +270,7 @@
   }
   .one_content {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .one_right h1 {
     width: max-content;
